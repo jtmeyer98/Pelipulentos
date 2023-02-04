@@ -1,0 +1,112 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*tarjetas de película*/
+  .movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px #ddd;
+    display: inline-block;
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+  }
+  
+  .movie-card h2 {
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .movie-card p {
+    font-size: 14px;
+    margin: 10px;
+    text-align: c
+    enter;
+  }
+
+  /*enlaces*/
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+  }
+
+  /*tabla peliculas*/
+
+  table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  /*botones*/
+
+  .button-container {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+
+  
+  
+  
+  
+  
+  
